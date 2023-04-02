@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lilita One', cursive;
+}
+#title{
+    background-color:#ef3e58da ;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% ;
+    padding-bottom: 7%;
+    padding-left: 20%;
+    background-color: #ff3957;
+}
+.header{
+    font-family: 'Lilita One', cursive;
+    font-size: 4.5rem;
+    line-height: 1.5;
+}
+.woof{
+    font-family:Ubuntu;
+    font-size: 3.3rem;
+    font-weight: bold;
+
+}
+.plan{
+    font-family:Ubuntu;
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+h3{
+   font-family: 'Lilita One', cursive; 
+   font-weight: bold;
+   font-size:3.5rem ;
+}
+p{
+    color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.downlaod{
+    font-size: 1.5rem;
+}
+.contact{
+    font-size: 1.5rem;
+
+}
+.pricing{
+    font-size: 1.5rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.image{
+    width: 32%;
+    
+    transform: rotate(16deg);
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    margin-right: 65px;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feauture{
+    text-align: center;
+    padding: 5% ;
+    
+}
+.icon{
+color: #ef8172;
+margin-bottom:1 rem ;
+}
+.icon:hover{
+    color: #f00404;
+}
+
+#testimonials{
+   text-align: center;
+   background-color: #ee3450d5;
+   color: white;
+}
+.carousel-item{
+    padding: 7% 15%; 
+
+}
+.wooff{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ee3450d5;
+text-align: center;
+padding-bottom: 3%;
+}
+.pressy{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 5%;
+}
+
+@media(max-width:1000px){
+
+#title{
+    text-align: center;
+}
+
+    .image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+}
+#cta{
+    text-align: center;
+    background-color: #ee3450d5;
+    padding: 7%;
+    padding-bottom: 3%;
+}
+.find{
+font-size: 5rem;
+color: white;
+}
+#footer{
+    text-align: center;
+    padding: 6%;
+    background-color: white;
+}
+.last{
+    padding:1%;
+    font-size: 1.2rem;
+}
+.lund{
+    padding: 1%;
+}
